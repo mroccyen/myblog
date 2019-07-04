@@ -8,7 +8,7 @@ tags:
 categories: 
 - C#
 - 深入理解C#
-description: 本文介绍了Sring字符串类型的不变性、驻留池、函数参数和相等处理的相关内容。
+- String
 ---
 
 ## 关于C#中的类型

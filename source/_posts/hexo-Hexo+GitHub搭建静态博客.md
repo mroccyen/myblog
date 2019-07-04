@@ -7,7 +7,6 @@ tags:
 categories: 
 - hexo
 - github
-description: 介绍了github博客仓库的创建和注意事项，git的相关配置，hexo的安装配置以及写文章等常规操作。
 ---
 
 ### 开始
