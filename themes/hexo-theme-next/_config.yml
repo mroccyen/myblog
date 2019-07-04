@@ -159,12 +159,12 @@ baidu_push: false
 menu:
   home: / || home
   about: /about/ || user
+  categories: /categories/ || th
+  tags: /tags/ || tags
   archives: /archives/ || archive
   Java: /categories/Java/ || joomla
   database: /categories/database/ || database
   bigdata: /categories/bigdata/ || asterisk
-  categories: /categories/ || th
-  tags: /tags/ || tags
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
