@@ -4,11 +4,10 @@ date: 2017-05-23 10:01:51
 tags: 
 - C#
 - .Net
-- String
 categories: 
-- C#
-- 深入理解C#
-- String
+- [C#]
+- [Java]
+- [database]
 ---
 
 ## 关于C#中的类型

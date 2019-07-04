@@ -3,10 +3,10 @@ title: Hexo+GitHub搭建静态博客
 date: 2017-02-09 10:01:51
 tags: 
 - hexo
-- github
 categories: 
-- hexo
-- github
+- [hexo]
+- [Java]
+- [bigdata]
 ---
 
 ### 开始
