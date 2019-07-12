@@ -5,8 +5,6 @@ tags:
 - hexo
 categories: 
 - [hexo]
-- [Java]
-- [bigdata]
 ---
 
 ### 开始
