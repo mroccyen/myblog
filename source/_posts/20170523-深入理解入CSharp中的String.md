@@ -26,6 +26,9 @@ static void Main(string[] args)
 ```
 
 输出结果是True、False。为什么呢？我们来看看IL。
+
+<!--more-->
+
 ```
 .entrypoint
   // 代码大小       48 (0x30)

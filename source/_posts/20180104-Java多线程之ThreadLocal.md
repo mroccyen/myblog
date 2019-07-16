@@ -29,6 +29,8 @@ ThreadLocalMap是ThreadLocal的内部类。
 
 每个Thread维护了一个ThreadLocalMap的引用（threadLocals变量）。
 
+<!--more-->
+
 ## Entry
 
 - 继承WeakReference<ThreadLocal>

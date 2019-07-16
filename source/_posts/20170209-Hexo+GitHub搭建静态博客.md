@@ -10,7 +10,6 @@ categories:
 ### 开始
 
 在安装[hexo](https://hexo.io/zh-cn/)之前，必须确认你已经安装了[Node.js](http://nodejs.org/)和[Git](http://git-scm.com/)，并且注册了一个[GitHub](https://github.com/)账号。
-<!-- more --> 
 #### 1.创建Github仓库
 ##### 1) 仓库名为xxx.github.io
 创建一个以"用户名.github.io"命名的仓库，如我的用户名为mroccyen,那我的仓库名为：[mroccyen.github.io](https://github.com/mroccyen/mroccyen.github.io)，仓库默认有master分支，用于托管生成的静态文件，再新建一个develop(名字自定)分支，用于托管后台文件，方便以后换电脑时后台文件不会丢失。
@@ -22,7 +21,10 @@ categories:
 $ git config --global user.name "username"
 $ git config --global user.email "email@example.com"
 ```
+<!--more-->
+
 #### 3.本地Git与Github建立联系
+
 这里介绍SSH的配置，先检查电脑是否已经有SSH
 ``` bash
 $ ls -al ~/.ssh
