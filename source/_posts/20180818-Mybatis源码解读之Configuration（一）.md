@@ -86,11 +86,11 @@ public class SqlSessionFactoryBuilder {
 
 我们可以看出，SqlSessionFactoryBuilder所有的方法最终都会调用 SqlSessionFactorybuild(Configuration config) 方法，而这之前会使用XMLConfigBuilder创建Configuration，那Configuration到时是什么，接下来的文章我们来一探究竟。
 
+<!--more-->
 
+# Configuration
 
-#Configuration
-
-##简单介绍
+## 简单介绍
 
 Configuration是Mybatis的全局配置信息，并且在整个执行流程中进行传递。
 
@@ -171,7 +171,7 @@ Configuration是Mybatis的全局配置信息，并且在整个执行流程中进
 
 ## XMLConfigBuilder
 
-XMLConfigBuilder类是用于解析XML配置文件，主要包括<properties>，<settings>，<typeAliases>，<plugins>，<objectFactory>，<objectWrapperFactory>，<reflectorFactory>，<environments>，<databaseIdProvider>，<typeHandlers>，<mappers>等节点。配置文档的顶层结构如下：
+XMLConfigBuilder类是用于解析XML配置文件，主要包括`properties`，`settings`，`typeAliases`，`plugins`，`objectFactory`，`objectWrapperFactory`，`reflectorFactory`，`environments`，`databaseIdProvider`，`typeHandlers`，`mappers`等节点。配置文档的顶层结构如下：
 
 configuration（配置）
 
