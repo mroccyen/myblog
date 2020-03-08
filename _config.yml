@@ -88,5 +88,7 @@ stylus:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/mroccyen/myblog.git
-  branch: gh-pages
+  repository: git@47.104.238.223:/home/blog/git/blog.git
+  branch: master
+  #repository: https://github.com/mroccyen/myblog.git
+  #branch: gh-pages
