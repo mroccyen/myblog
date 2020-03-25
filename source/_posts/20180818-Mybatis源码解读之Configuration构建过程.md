@@ -1,5 +1,5 @@
 ---
-title: Mybatis源码解读之Configuration（一）
+title: Mybatis源码解读之Configuration构建过程
 date: 2018-08-18 11:30:12
 tages:
 - Mybatis
@@ -25,10 +25,12 @@ public interface SqlSessionFactory {
 }
 ```
 
+  <!--more-->
+
 Mybatis提供了SqlSessionFactoryBuilder来创建SqlSessionFactory，如下所示：
 
 ```java
-	//以下代码为SqlSessionFactoryBuilder比较关键的方法
+//以下代码为SqlSessionFactoryBuilder比较关键的方法
 public class SqlSessionFactoryBuilder {
   //...
   //省略代码
@@ -52,11 +54,10 @@ public class SqlSessionFactoryBuilder {
       }
     }
   }
-  
+    
   //...
   //省略代码
-	//...
-  
+  //...
   public SqlSessionFactory build(InputStream inputStream, 
                                  String environment,
                                  Properties properties) {
@@ -84,8 +85,6 @@ public class SqlSessionFactoryBuilder {
 ```
 
 我们可以看出，SqlSessionFactoryBuilder所有的方法最终都会调用 SqlSessionFactorybuild(Configuration config) 方法，而这之前会使用XMLConfigBuilder创建Configuration，那Configuration到时是什么，接下来的文章我们来一探究竟。
-
-<!--more-->
 
 # Configuration
 
