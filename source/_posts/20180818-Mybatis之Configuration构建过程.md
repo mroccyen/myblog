@@ -1,5 +1,5 @@
 ---
-title: Mybatis源码解读之Configuration构建过程
+title: Mybatis之Configuration构建过程
 date: 2018-08-18 11:30:12
 tages:
 - Mybatis
